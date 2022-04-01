@@ -6,7 +6,6 @@ fetch(url)
   .then((res) => res.json())
   .then((json) => {
     const meal = json.meals[0];
-
     const nome = meal.strMeal;
     const id = meal.idMeal;
     const regiao = meal.strArea;
